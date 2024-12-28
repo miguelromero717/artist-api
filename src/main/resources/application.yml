@@ -13,3 +13,13 @@ spring:
     hibernate:
       ddl-auto: none
     open-in-view: false
+  mvc:
+    servlet:
+      path: /api
+
+discogs:
+  api:
+    url: https://api.discogs.com
+  consumer:
+    key: atReCrcFEWtpwVLSOqFc
+    secret: BtMnrHOxToVbtvmAbJJChVnssjSvbPRZ
